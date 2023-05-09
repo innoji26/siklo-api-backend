@@ -6,7 +6,7 @@ const cookieSession = require("cookie-session");
 const config = require("./app/config/cookiesConfig.js");
 require("dotenv").config();
 
-const port = process.env.PORT;
+const port = process.env.MYSQLPORT;
 const app = express();
 
 app.use(cors());
