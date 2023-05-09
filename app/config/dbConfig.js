@@ -3,7 +3,7 @@ const config = {
     host: process.env.HOST,
     user: process.env.USER,
     pass: process.env.PASS,
-    db: "siklo",
+    db: process.env.DATABASE,
     dialect: "mysql",
 };
 
